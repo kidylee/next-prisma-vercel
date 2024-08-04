@@ -11,7 +11,7 @@ export default function Home() {
 }
 import {useState} from 'react'
 
-export function LikeButton() {
+function LikeButton() {
     const [users, setUsers] = useState<User[]>()
 
     return (
